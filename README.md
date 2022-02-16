@@ -31,3 +31,15 @@ Daha sonra kullanıcıya sunulan secenek şöyledir:
 	11
 	Araç ID: 11 Araç Marka: ss
 	4
+
+**Classlar ve İşlevleri**
+Cars İnterface:
+Bir istemci tarafından uzaktan çağırılabilecek yöntemleri belirtir.  
+Serv.class: 
+UnicastRemoteObject çalıştırlır. 
+Run class:  
+Server çalıştırılır. 
+Starara.class:  
+Kullanıcıdan integer bir değer girer giriler değere göre switch-case yapısında client class’ı çalıştırılır.  
+Client.class: 
+Girilen integer değere göre kayıt ya da sorgulama işlemi yapılır. Araç ve fatura txt’lerine eklenen araç ve fatura bilgileri araç için ID ve marka, fatura için ID ve isme göre Hashmap yapısı üzerinden arama yapılır. 
